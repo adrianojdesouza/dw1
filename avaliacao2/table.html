@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="all-content">
+    <header>
+      <h1 class="page-title">ATIVIDADE DE JAVASCRIPT</h1>
+      <section>
+        <nav class="header-navigation">
+          <a href="calculator.html" class="btn">Calculadora</a>
+          <a href="courses.html" class="btn">Cursos</a>
+          <a href="table.html" class="btn">Tabela</a>
+        </nav>
+      </section>
+    </header>
+    <section class="content">
+       <div id="border-table">
+          <h2>CLIENTES</h2>
+          <table id="table-customers">
+            <tr class="index">
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>E-mail</th>
+              <th>Endereço</th>
+            </tr>
+            <tr>
+              <td>Valder</td>
+              <td>1111-1111</td>
+              <td>vader@deathstar.com</td>
+              <td>Tatooine</td>
+            </tr>
+            <tr>
+              <td>Leia</td>
+              <td>2222-2222</td>
+              <td>isky@rebelsnet.com</td>
+              <td>Alderaan</td>
+            </tr>
+            <tr>
+              <td>Padmé</td>
+              <td>3333-3333</td>
+              <td>s2anakin@senado.com</td>
+              <td>Naboo</td>
+            </tr>
+          </table>
+          <button class="btn" onclick="exportTableToCSV()">Exportar</button>
+          <div id="result">
+            <h2>RESULTADO</h2>
+            <textarea id="text"></textarea>
+          </div>
+          <div class="clear"></div>
+      </div>   
+    </section>
+    <footer>
+      Desenvolvido por: Adriano - Everson - Everton
+    </footer>
+  </div>
+</body>
+</html>

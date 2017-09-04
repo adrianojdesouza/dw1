@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="all-content">
+    <header>
+      <h1 class="page-title">ATIVIDADE DE JAVASCRIPT</h1>
+      <section>
+        <nav class="header-navigation">
+          <a href="calculator.html" class="btn">Calculadora</a>
+          <a href="courses.html" class="btn">Cursos</a>
+          <a href="table.html" class="btn">Tabela</a>
+        </nav>
+      </section>
+    </header>
+    <section class="content">
+    <div id="border">   
+      <h2>CALCULADORA</h2>
+        <div class="result">
+          <input type="text" class="result" id="total" readonly placeholder="RESULTADO" />
+            <div class="user-input">
+              <input id="number1" type="number" placeholder="Número 1" />
+              <input id="number2" type="number" placeholder="Número 2" />
+            </div>
+            </div>
+              <ul class="operations">
+                <li><button onclick="calculate('x')" class="btn">x</button></li>
+                <li><button onclick="calculate('/')" class="btn">/</button></li>
+              </ul>
+              <ul class="operations">
+                <li><button onclick="calculate('-')" class="btn">-</button></li>
+                <li><button onclick="calculate('+')" class="btn">+</button></li>
+              </ul>
+          <div class="clear"></div>
+        </div>
+    </section>
+    <footer>
+      Desenvolvido por: Adriano - Everson - Everton
+    </footer>
+  </div>
+</body>
+</html>

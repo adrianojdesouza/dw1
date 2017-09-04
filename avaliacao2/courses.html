@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cursos</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="all-content">
+    <header>
+      <h1 class="page-title">ATIVIDADE DE JAVASCRIPT</h1>
+      <section>
+        <nav class="header-navigation">
+          <a href="calculator.html" class="btn">Calculadora</a>
+          <a href="courses.html" class="btn">Cursos</a>
+          <a href="table.html" class="btn">Tabela</a>
+        </nav>
+      </section>
+    </header>
+    <section class="content">
+      <div id="border-course">
+        <h2>CURSOS</h2>
+          <div id="available">
+            <h3>Cursos Disponíveis</h3>
+              <select id="course" multiple>
+                <option ondblclick="chooseCourse(this)" data-index="0">JS</option>
+                <option ondblclick="chooseCourse(this)" data-index="1">JQuery</option>
+                <option ondblclick="chooseCourse(this)" data-index="2">HTML</option>
+                <option ondblclick="chooseCourse(this)" data-index="3">CSS</option>
+              </select>
+          </div>
+          <div id="chosen">
+            <h3>Cursos Escolhidos</h3>
+              <select id="choice" multiple>
+              </select>
+          </div>
+        <div class="clear"></div>
+      </div>   
+    </section>
+    <footer>
+      Desenvolvido por: Adriano - Everson - Everton
+    </footer>
+  </div>
+</body>
+</html>
